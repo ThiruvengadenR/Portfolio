@@ -1,0 +1,233 @@
+
+  body {
+    background-image: url('try.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color:white; */
+  }
+
+
+/* About Me Section Styles */
+#about {
+  padding: 50px 0;
+  /* background-color: #ffffff;  */
+  /* Background color */
+
+}
+
+.about-image {
+  width: 230px; /* Adjust the width of the frame */
+  height: 300px; /* Adjust the height of the frame */
+  border: 6px solid #597696; /* Border color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin-right: 20px; /* Margin between image and content */
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+.about-content {
+  text-align: justify; /* Align content to the left */
+  /* margin-left: -100px;  */
+  /* Compensate for the margin */
+}
+
+/* Skills Section Styles */
+
+#skills {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#skills h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.progress {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: #007bff; /* Blue color */
+  transition: width 1s ease-in-out; /* Animation for width */
+  -webkit-transition: width 1s ease-in-out; /* For Safari and older Chrome */
+  -moz-transition: width 1s ease-in-out; /* For Firefox */
+}
+
+/* Animation on hover */
+.progress-bar:hover {
+  width: 100%;
+}
+  /* social media */
+
+  /* Additional styles for the Social Media section */
+#social-media {
+    /* background-color: #f9f9f9; */
+    padding: 60px 0;
+  }
+  
+  #social-media h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #social-media p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  #social-media img {
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #social-media img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Additional styles for the Education section */
+/* Education Section Styles */
+
+  #education {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .timeline {
+    position: relative;
+    margin: 0 auto;
+    max-width: 700px; /* Set the maximum width for the timeline */
+  }
+
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #007bff; /* Timeline line color */
+  }
+
+  .timeline-item {
+    width: calc(100% - 20px);
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 20px; /* Distance from the timeline line */
+  }
+
+  .timeline-item:hover {
+    transform: scale(1.05); /* Scale on hover */
+  }
+
+/* Certifications & Achievements Section Styles */
+
+#certifications {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.mind-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.node {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.node h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.node p {
+  color: #666;
+}
+
+.node:not(:first-child)::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 5px);
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #ccc;
+}
+  
+/* Custom CSS with added colors for the project section */
+
+#projects .card {
+  height: 100%;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: white !important; 
+  /* Set background color */
+  color: #333;
+}
+#projects {
+  /* border: none; */
+  background-image: url('try.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-color: white; */
+}
+
+
+#projects .card:hover {
+  transform: translateY(-5px);
+}
+
+#projects .card-body {
+  height: 100%;
+}
+
+/* Example colors and styles */
+#projects .card-title {
+  color: #007bff;
+}
+
+#projects .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#projects .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff;
+}
+
